@@ -4,6 +4,8 @@ A Node.js library for bulk exporting documents from DocuSign with concurrent dow
 
 Docusign typically will charge fees to access their API or bulk download documents. This library uses the web API using your token & cookie to download documents programmatically for free on any account type.  
 
+Take a look at the [examples/cli.js](examples/cli.js) as a good starting point to run the script. 
+
 ## Features
 
 - 🚀 Concurrent downloads with configurable batch size
@@ -121,9 +123,7 @@ npm run format
 ```
 
 ## License
-
 MIT
 
 ## Support
-
 If you encounter any issues or have an issue with this repo please reach out. 
